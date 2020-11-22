@@ -1,0 +1,454 @@
+body{
+    background-color:#ebedf0;
+    font-family: Arial, helvetica, sans-serif;
+    line-height: 1.7em;
+    margin:0; /* there is a margin in the original one but now it's set to 0*/
+    }
+.container{
+    width: 98%;; /* make it responsive*/
+    /*  width: 960px is the default for most websites but not responsive;*/
+    margin: auto;
+    background-color: #fff;
+    overflow:hidden;
+    margin: 10px;
+    padding:5px
+
+}
+
+.main-header{
+    width: 100%;
+    margin:auto;
+    background-color: #3b5998;
+     box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 44px;
+    min-height: 44px;
+    text-align: center;
+    margin-bottom: 10px;
+    position:relative;
+}
+.main-header a{
+    color:whitesmoke
+}
+.main-header .icon{
+    background-image: url(images/left-arrow\ \(2\).png);
+    position: absolute;
+    background-repeat:no-repeat;
+    top:3px;
+    left:10px;
+    width:20px;
+   height:30px;
+}
+.cover-block{
+    
+    position: relative;
+    min-height: 200px;
+    width: 100%; 
+    text-align: center;  
+}
+.cover{
+    background-image:  url('images/calefornia.jpg');
+    position: relative;
+    min-height: 162px;
+    width: 100%; 
+    background-position:  center left;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.camera{
+    position: absolute;
+    top: 120px;
+    right:20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(236, 230, 230);
+     background-repeat:no-repeat ;
+     background-position: center;
+     padding: 5px;
+    border-radius:5px;
+    background-image: url(images/camera\ \(1\).png);
+}
+.camera-1{
+    position: relative;
+    top: 0px;
+    right: 15px;
+    bottom:10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(236, 230, 230);
+     background-repeat:no-repeat ;
+     background-position: center;
+     padding: 5px;
+    border-radius:25px;
+    background-image: url(images/camera\ \(1\).png);
+}
+
+.profile-picture{
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    display: inline-block;
+    border: 3px #fff solid;
+    border-radius: 50%;
+    width: 126px;
+    height:126px;
+    box-sizing: border-box;
+}
+.title{
+    font: bold 24px Helvetica,Arial,sans-serif;
+    color:#1d2129;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 10px 0;
+}
+.title-name{
+    color: #1c1e21;
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.cards-wrap h4{
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: normal;
+    padding-top: 4px;
+}
+.name{
+    text-align: center;
+}
+.other{
+    text-align: left;
+    
+
+}
+.info{
+    font:normal 15px Helvetica,Arial,sans-serif;
+    color:#4b4f56;
+    line-height: 2em;
+    text-align: center;
+    padding-right: 20px;
+   
+}
+.info-items a, .post .blue {
+    font:normal 14px Helvetica,Arial,sans-serif;
+    color:#4267b2;
+    text-decoration:none;
+    line-height: 2em;
+    text-align: center;
+}
+
+.b-wrap{
+    height:52px;
+    padding: 8px 4px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.button{
+    min-width:95.5%;
+    float:left;
+    min-height:40px;
+    background-color:#1877f2;
+    border: 3px #1877f2 solid;
+    box-sizing:border-box;
+    border-radius: 6px ;
+    color:white;
+}
+.button-details,.button-friends{
+    min-width:100%;
+    float:left;
+    margin:auto;
+    min-height:40px;
+    background-color:#e6f2ff;
+    border: 3px #e6f2ffaf;
+    box-sizing:border-box;
+    border-radius: 6px ;
+    
+    margin-top: 10px;
+}
+.button-small{
+    min-width:4%;
+    float:right;
+    min-height:40px;
+    background-color:#e9ebee;;
+    border: 3px #c5c7c9;
+    box-sizing: border-box;
+    border-radius: 6px ;
+    float: right;
+}
+.button a{
+    text-decoration: none;
+    font:normal 17px Helvetica,Arial,sans-serif;
+    color:white;  
+}
+.button-details a{
+    text-decoration: none;
+    font:bold 15px Helvetica,Arial,sans-serif;
+    letter-spacing: .02em;
+    color:#1877f2; 
+}
+.button-friends a,.card a, .post-name{
+    text-decoration: none;
+    font:bold 15px Helvetica,Arial,sans-serif;
+    letter-spacing: .02em;
+    color:#1c1e21; 
+}
+
+.button .img{
+    box-sizing: border-box;
+    margin-right: 5px;
+    min-width: 15px;
+    min-height: 15px;
+}
+
+.button-small a{
+    text-decoration: none;
+    font:bold 20px Helvetica,Arial,sans-serif;
+    letter-spacing: .05em;
+    padding-bottom: .3px;
+}
+.friend{
+    float: left;
+}
+.friend-1{
+    float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+.main{
+    width:98%;
+}
+.main ul{
+    list-style: none;
+    margin-right: 5px;
+    position:0;
+    
+}
+.main ul li{
+    padding:3px 0;
+    box-sizing: border-box;
+}
+.main ul li a,.post ul li a,.react ul li a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font: Helvetica,Arial,sans-serif;
+    color: #616770;
+}
+.post .black a{
+    font-weight: 500;
+    color: #1c1e21;
+}
+.react ul li a,.main ul li a{
+    font-weight: 500;
+
+}
+.main ul li a{
+    font-size: 16px;    
+}
+.main ul span{
+    padding-left:5px;
+    font-weight: 600;      
+}
+.icon-main{
+ margin-top:2px;
+margin-left: 2px;
+font-weight: 600;
+}
+.pad{
+    margin-right:15px;
+}
+.nopad{
+    margin-right:5px;
+}
+.items-wrap, .cards-wrap{
+    border: 3px #fff solid;
+    border-radius: 6px;
+    margin: auto;
+    padding:5px;
+    position: relative;
+    height: 100%;
+    Overflow: hidden;
+}
+.items-wrap{
+    width:22%;
+}
+.items, .card{
+    float:left;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.item-pic{
+    width:93px;
+    height:93px;
+    border-radius: 6px;
+}
+
+.card-pic{
+    border-radius: 6px;
+    width:420px;
+    height:420px; 
+    margin:5px 0;
+}
+.post{
+    min-width:100%;
+    min-height: 100%;
+    margin: 0 15px 15px 0;
+}
+.react{
+    min-width:100%;
+    min-height: 100%;
+    margin: 2px 0; 
+}
+.post ul , .react ul{
+    list-style: none;
+    padding:0;
+    
+}
+.post ul li,.react ul li{
+display: inline;
+padding-top:5px;
+padding-bottom:5px;
+box-sizing: border-box;
+
+}
+
+.profile-picture-icon{
+    width: 40px;
+    height:40px;
+    border-radius:50%;
+    float: left;
+    background-image: url(images/me.jpg);
+    margin-right:5px;   
+}
+.profile-picture-icon-right{
+    width: 40px;
+    height:40px;  
+}
+.icon-c{ 
+   float: left;
+   width: 33%;
+   text-align: center;
+  
+}
+.post-smth{
+    width: 1200px;
+    height: 40px;
+    font:200 15px Helvetica,Arial,sans-serif;
+    color: #444950;
+    border: 1px solid #ccd0d5;
+    border-radius: 20px;
+    line-height: inherit;
+    padding:7px 18px;
+    box-sizing: border-box;
+    
+}
+.post  .btn{
+ background-color: #ebedf0;
+    float: left;
+   padding: 8px 12px;
+   margin:5px;
+   border-radius: 25px;
+}
+.btn a{
+font:500 15px Helvetica,Arial,sans-serif;
+text-decoration: none;
+color: #1c1e21;
+line-height: 20px;
+}
+.time{
+    line-height: 16px;
+    margin-left: 2px;
+    font:normal 12px Helvetica,Arial,sans-serif;
+    color: #444950;  
+}
+a{
+    text-decoration: none;
+}
+.box,.box-1{
+    border: 1px solid  rgba(0, 0, 0, .1);;
+    padding:5px;
+}
+
+.shared {
+    margin: 15px ;
+    line-height: 18px;  
+}
+.mid{
+    text-align: center; 
+    margin: 0 auto;
+}
+.shared p{
+    font-weight: 200;
+    color: #1c1e21;
+    font-size: 15px;
+}
+.image{
+    max-width: 320px;
+    max-height: 320px;
+}
+.bord{
+    border-right: 1px solid #ccd0d5;
+}
+.bord-1{
+    border-top: 1px solid #ccd0d5;
+    border-bottom: 1px solid #ccd0d5;
+}
+
+@media(max-width:600px){
+    .container{
+        width: 309px;; /* make it responsive*/
+        /*  width: 960px is the default for most websites but not responsive;*/
+    }
+    .items-wrap{
+        width:100%;
+    }
+    .item-pic{
+        width:93px;
+        height:93px;
+    }
+    .card-pic{
+        width:90.33px;
+        height:90.33px;    
+    }
+   .cards-wrap{
+       width:100%;
+   } 
+   .card{
+       height:134.33px;
+   }
+   .title-card{
+    width:90.33px;
+   }
+   .card a{
+    font:600 13px Helvetica,Arial,sans-serif;
+    letter-spacing: 0;
+   }
+   .post-smth{
+    width: 192px;
+   }
+   .box-1{
+    border-top:  1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);;
+    border-left: 0;
+    border-right: 0;
+  }
+  .button{
+      min-width: 81%;
+  }
+  .button-small{
+    min-width: 16%;
+}
+
+}
